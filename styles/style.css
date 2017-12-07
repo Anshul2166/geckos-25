@@ -8,6 +8,17 @@ body {
 	margin-top: 10px;
 }
 
+li {
+	border-right: solid 3px #000;
+	line-height: 10px;
+	margin-top: 10px;
+}
+
+
+li:last-child {
+	border: none;
+}
+
 .title {
 	margin-top: 15%;
 }
