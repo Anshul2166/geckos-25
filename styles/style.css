@@ -22,3 +22,7 @@ li:last-child {
 .title {
 	margin-top: 15%;
 }
+
+.form-inline {
+	margin-left: 42%;
+}
