@@ -37,3 +37,22 @@ li:last-child {
 	position: fixed;
 	bottom: 10px;
 }
+
+#footer__social-media {
+	position: fixed;
+	bottom: 10px;
+	right: 20px;
+	color: pink;
+}
+
+.fa-facebook {
+	color: pink;
+}
+
+.fa-twitter {
+	color: pink;
+}
+
+.fa-instagram {
+	color: pink;
+}
