@@ -3,7 +3,7 @@ body {
 	background-size: cover;
 }
 
-.next-destination {
+#next-destination {
 	float: right;
 	margin-top: 10px;
 }
