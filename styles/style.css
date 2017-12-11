@@ -36,6 +36,7 @@ li:last-child {
 #footer__settings {
 	position: fixed;
 	bottom: 10px;
+	color: black;
 }
 
 #footer__social-media {
