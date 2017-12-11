@@ -30,5 +30,10 @@ li:last-child {
 .book-flight {
 	margin-top: 20px;
 	border-radius: 15px !important;
-	padding: 5px 30px 5px 30px !important;
+	padding: 5px 40px 5px 30px !important;
+}
+
+#footer__settings {
+	position: fixed;
+	bottom: 10px;
 }
