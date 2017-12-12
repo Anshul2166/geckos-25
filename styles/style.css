@@ -8,6 +8,11 @@ body {
 #next-destination {
 	float: right;
 	margin-top: 10px;
+	border: 2px solid blue;
+	border-radius: 10px 20px;
+	background: #89F;
+	font-family: Ultra;
+	font-size: 18px;
 }
 
 li {
@@ -23,6 +28,8 @@ li:last-child {
 
 #title {
 	margin-top: 15%;
+	font-size: 60px;
+	font-style: oblique;
 }
 
 .form-inline {
@@ -33,6 +40,7 @@ li:last-child {
 	margin-top: 20px;
 	border-radius: 15px !important;
 	padding: 5px 40px 5px 30px !important;
+	font-size: 20px;
 }
 
 #footer__settings {
@@ -58,4 +66,8 @@ li:last-child {
 
 .fa-instagram {
 	color: pink;
+}
+
+.select-label{
+	font-size: 20px;
 }
