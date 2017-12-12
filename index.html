@@ -5,13 +5,75 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
         <!-- link to css files goes here -->
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://use.fontawesome.com/aef7619923.js"></script>
         <title>WanderList</title>
     </head>
     
     <body>
         <!-- code goes here -->
         
-        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">My Flights</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Interesting Places</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Map</a>
+                        </li>
+                    </ul>
+                
+            </div>
+
+                <div class="col-md-6"> 
+                    <a class="btn btn-secondary" id="next-destination" href="#" role="button">Next Destination ></a>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center" id="title">Myanmar</h1>
+                </div>
+
+                <form class="form-inline">
+                    <label class="mr-sm-2" for="location-select">From</label>
+                        <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="location-select">
+                            <option selected>Hyberabad, India</option>
+                            <option value="1">Manila, Philippines</option>
+                        </select>
+                </form>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <a class="btn btn-secondary" id="book-flight" href="#" role="button"><i class="fa fa-plane"></i> Book your flight</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6" id="footer">
+                    <a href="#"><i class="fa fa-wrench fa-4x" id="footer__settings"></i></a>
+                </div>
+
+                <div class="col-md-6">
+                    <p id="footer__social-media">Share on 
+                        <a href="#"> <i class="fa fa-facebook"></i></a> &nbsp; 
+                        <a href="#"> <i class="fa fa-instagram"></i></a> &nbsp; 
+                        <a href="#"> <i class="fa fa-twitter"></i></a> 
+                    </p>
+                </div>
+            </div>
+
+                    
+            
+        </div>          
+
         
         <!-- code ends here -->
         <!-- link to Javascript files begins here -->
