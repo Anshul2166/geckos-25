@@ -90,3 +90,12 @@ li:last-child {
 .inactive{
 	display: none;
 }
+.img{
+	height: 10%;
+}
+.carousel-inner{
+	margin-top: -10%;
+}
+.carousel-image{
+	margin-left: -5%;
+}
