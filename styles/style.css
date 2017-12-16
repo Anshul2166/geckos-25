@@ -93,9 +93,16 @@ li:last-child {
 .img{
 	height: 10%;
 }
+.carousel-item{
+	position: relative;
+	display: inline-block;
+}
 .carousel-inner{
 	margin-top: -10%;
 }
 .carousel-image{
 	margin-left: -5%;
+}
+.close{
+	float: none !important;
 }
