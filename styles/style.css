@@ -13,6 +13,7 @@ body {
 	background: #89F;
 	font-family: Ultra;
 	font-size: 18px;
+	color: #fff;
 }
 
 li {
@@ -25,22 +26,26 @@ li {
 li:last-child {
 	border: none;
 }
-
+.center{
+	margin-top: 20%;
+}
 #title {
-	margin-top: 15%;
+	/*margin-top: 20%;*/
 	font-size: 60px;
-	font-style: oblique;
+	/*font-style: oblique;*/
+	text-shadow: 2px 2px #292b2c;
 }
 
-.form-inline {
+/*.form-inline {
 	margin-left: 42%;
 }
-
+*/
 #book-flight {
 	margin-top: 20px;
 	border-radius: 15px !important;
 	padding: 5px 40px 5px 30px !important;
 	font-size: 20px;
+	background-color:#bbb;
 }
 
 #footer__settings {
@@ -69,5 +74,19 @@ li:last-child {
 }
 
 .select-label{
-	font-size: 20px;
+	font-size: 30px;
+}
+.center-row{
+	margin-top: 1%;
+}
+
+.label-text{
+	color:#ffffff;
+}
+#location-select{
+	background-color:#eee;
+	color:#377;
+}
+.inactive{
+	display: none;
 }
