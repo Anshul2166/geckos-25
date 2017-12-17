@@ -19,12 +19,14 @@ li:last-child {
 	border: none;
 }
 
-#title {
-	margin-top: 15%;
-}
-
 .form-inline {
 	margin-left: 42%;
+}
+
+#center-block {
+	padding-top: 10%;
+	display: none;
+	height: 500px;
 }
 
 #book-flight {
