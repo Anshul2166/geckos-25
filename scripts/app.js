@@ -1,4 +1,6 @@
 $(document).ready(function(){
-      $("#center-block").show("slide", { direction: "down" }, 1000);
-      //direction: up,down
+
+	  //Slide Center Block upward upon loading
+      $("#center-block").show("slide", { direction: "down" }, 500);
+      
 });
