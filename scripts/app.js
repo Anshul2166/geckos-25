@@ -4,5 +4,8 @@ $(document).ready(function(){
 	});
 	$('.close').click(function(){
 		$('.center-data').toggleClass('inactive');
-	})
-})
+	});
+	$('#my-flights').click(function(){
+		$('.flight-bar').show();
+	});
+});

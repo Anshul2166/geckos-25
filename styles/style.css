@@ -1,8 +1,14 @@
+html{
+	height: 100%;
+	width: 100%;
+}
 body {
 	background: url(https://i.imgur.com/dcHO7hg.jpg);
 	background-repeat:no-repeat;
 	/*background-size:cover;*/
 	background-size:100% 100vh;
+	height: 100%;
+	width: 100%;
 }
 
 #next-destination {
@@ -105,4 +111,9 @@ li:last-child {
 }
 .close{
 	float: none !important;
+}
+.flight-bar{
+	display: none;
+	z-index: 100;
+	height: 100%;
 }
