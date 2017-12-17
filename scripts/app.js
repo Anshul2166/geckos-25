@@ -7,5 +7,7 @@ $(document).ready(function(){
 	});
 	$('#my-flights').click(function(){
 		$('.flight-bar').show();
+		$('.main-content').css("width","80%");
+		$(".flight-bar").css("width","20%");
 	});
 });
