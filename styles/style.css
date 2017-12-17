@@ -1,5 +1,4 @@
 body {
-	background: url(https://i.imgur.com/dcHO7hg.jpg);
 	background-size: cover;
 }
 
@@ -35,7 +34,7 @@ li:last-child {
 	height: 200px;
 }
 
-#book-flight {
+#center-block__book-flight {
 	margin-top: 20px;
 	border-radius: 15px !important;
 	padding: 5px 40px 5px 30px !important;
