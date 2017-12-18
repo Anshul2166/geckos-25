@@ -114,9 +114,27 @@ li:last-child {
 	padding: 0px;
 	margin-bottom: -5000px;
 	padding-bottom: 5000px; 
+	background: papayawhip;
 }
 .footer-row{
-	position: relative;
-	bottom: -110%;
-	/*margin-bottom: -0.5%;*/
+	position: fixed;
+	margin-right: 5%;
+}
+@media screen and (max-height: 700px) {
+  .footer-row{
+  	bottom: -90%;
+  }
+}
+@media screen and (min-height: 700px) , screen and (max-height: 1000px) {
+  .footer-row{
+  	position: fixed;
+  	bottom: 0px;
+  	width: 100%;
+  }
+}
+.flight-bar-heading>h2{
+	margin-top: 1%;
+}
+.flight-bar-data>i{
+	padding-top: 1%;
 }

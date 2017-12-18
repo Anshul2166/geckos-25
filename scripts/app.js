@@ -2,12 +2,15 @@ $(document).ready(function(){
 	$('#show-carousel').click(function(){
 		$('.center-data').toggleClass("inactive");
 	});
-	$('.close').click(function(){
+	$('#close-carousel').click(function(){
 		$('.center-data').toggleClass('inactive');
 	});
 	$('#my-flights').click(function(){
 		$('.flight-bar').show();
 		$('.main-content').css("width","80%");
 		$(".flight-bar").css("width","20%");
+	});
+	$('#close-flight').click(function(){
+		$('.flight-bar').hide();
 	});
 });
