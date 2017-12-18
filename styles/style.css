@@ -34,8 +34,8 @@ li:last-child {
 }
 .center{
 	/*margin-top: 20%;*/
-	position: relative
-;	top:60%;
+	position: relative;
+	top:60%;
 }
 #title {
 	font-size: 60px;
@@ -46,7 +46,7 @@ li:last-child {
 	border-radius: 15px !important;
 	padding: 5px 40px 5px 30px !important;
 	font-size: 20px;
-	background-color:#bbb;
+	background-color:wheat;
 }
 
 #footer__settings {
@@ -112,31 +112,55 @@ li:last-child {
 	display: none;
 	z-index: 100;
 	height: 100%;
-	border: 2px solid blue;
+	border: 2px solid brown;
 	padding: 0px;
 	margin-bottom: -5000px;
 	padding-bottom: 5000px; 
-	background: papayawhip;
+	background: antiquewhite;
 }
 .footer-row{
 	position: fixed;
 	margin-right: 5%;
 }
 @media screen and (max-height: 700px) {
-  .footer-row{
-  	bottom: -90%;
-  }
+	.footer-row{
+		bottom: -90%;
+	}
 }
 @media screen and (min-height: 700px) , screen and (max-height: 1000px) {
-  .footer-row{
-  	position: fixed;
-  	bottom: 0px;
-  	width: 100%;
-  }
+	.footer-row{
+		position: fixed;
+		bottom: 0px;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1400px) {
+	.center-data{
+		margin-top: 3%;
+	}
 }
 .flight-bar-heading>h2{
-	margin-top: 1%;
+	margin-top: 2%;
+	color: darkblue;
 }
 .flight-bar-data>i{
 	padding-top: 1%;
 }
+.flight-bar-data>p{
+	font-size: 20px;
+	color: navy;
+}
+.flight-bar-data,.flight-bar-heading{
+	border-bottom: 1px solid  rgba(0,0,0,.1);
+	margin-top:2%;
+	height: 100px;
+	padding: 7%;
+}
+.flight-bar-heading{
+	margin: 5px;
+	margin-top: 0px;
+	background-color: darksalmon;
+}	
+/*.flight-bar-data{
+	background-color: mediumspringgreen;
+}*/
