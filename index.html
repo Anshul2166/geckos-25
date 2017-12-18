@@ -6,7 +6,6 @@
         <!-- link to css files goes here -->
         <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <script src="https://use.fontawesome.com/aef7619923.js"></script>
         <title>WanderList</title>
     </head>
     
@@ -36,9 +35,9 @@
             </div>
 
 
-            <div class="row">
+            <div class="row" id="center-block">
                 <div class="col-md-12">
-                    <h1 class="text-center" id="title">Myanmar</h1>
+                    <h1 class="text-center" id="center-block__title">Myanmar</h1>
                 </div>
 
                 <form class="form-inline">
@@ -48,11 +47,9 @@
                             <option value="1">Manila, Philippines</option>
                         </select>
                 </form>
-            </div>
 
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <a class="btn btn-secondary" id="book-flight" href="#" role="button"><i class="fa fa-plane"></i> Book your flight</a>
+                <div class="col-md-12 text-center">
+                    <a class="btn btn-secondary" id="center-block__book-flight" href="#" role="button"><i class="fa fa-plane"></i> Book your flight</a>
                 </div>
             </div>
 
@@ -77,6 +74,9 @@
         
         <!-- code ends here -->
         <!-- link to Javascript files begins here -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
         <script src="scripts/app.js"></script>
+        <script src="https://use.fontawesome.com/aef7619923.js"></script>
     </body>
 </html>

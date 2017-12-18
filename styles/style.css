@@ -1,5 +1,5 @@
 body {
-	background: url(https://i.imgur.com/dcHO7hg.jpg);
+	background-color: grey !important;
 	background-size: cover;
 }
 
@@ -19,15 +19,23 @@ li:last-child {
 	border: none;
 }
 
-#title {
-	margin-top: 15%;
-}
-
 .form-inline {
-	margin-left: 42%;
+	display: block;
+	width: 60%;
+	margin: auto;
 }
 
-#book-flight {
+#center-block {
+	position: fixed;
+	left: 50%;
+	margin-left: -200px;
+	bottom: 90px;
+	display: none;
+	width: 400px;
+	height: 200px;
+}
+
+#center-block__book-flight {
 	margin-top: 20px;
 	border-radius: 15px !important;
 	padding: 5px 40px 5px 30px !important;
