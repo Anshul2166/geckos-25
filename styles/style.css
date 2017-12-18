@@ -79,7 +79,9 @@ li:last-child {
 .center-row{
 	margin-top: 25px;
 }
-
+.center-data{
+	margin-top: 6%;
+}
 .label-text{
 	color:#ffffff;
 }
