@@ -108,6 +108,10 @@ li:last-child {
 .close{
 	float: none !important;
 }
+.carousel-inner>.row>.close{
+	position: absolute;
+	right: 25%;
+}
 .flight-bar{
 	display: none;
 	z-index: 100;
@@ -161,6 +165,9 @@ li:last-child {
 	margin-top: 0px;
 	background-color: grey;
 }	
-#center-carousel{
-	margin-top:3%;
+.carousel-item{
+	margin-top:-3%;
 }
+/*.carousel-inner{
+	position: relative;
+	}*/
