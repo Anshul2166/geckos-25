@@ -7,14 +7,11 @@ $(document).ready(function(){
 	});
 	$('#my-flights').click(function(){
 		$('.flight-bar').show();
-		// $('.center-data').css("margin-top","-6%");
 	});
 	$('#close-flight').click(function(){
 		$('.flight-bar').hide();
-		// $('.center-data').css("margin-top","6%");
 	});
 });
-
 $(window).on("load", function(){
 
 	//Add background image once page loads
@@ -22,7 +19,8 @@ $(window).on("load", function(){
 
 	//Slide Center Block upward upon loading
 	$("#center-block").show("slide", { direction: "down" }, 500);
-	
-	
+
+
 });
+
 
