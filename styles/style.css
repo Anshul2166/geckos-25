@@ -123,6 +123,7 @@ li:last-child {
 	/*background-color: rgba(51, 153, 255, 0.1);*/
 	background-color: aliceblue;
 	overflow: hidden;
+	border-left: 2px solid black;
 }
 .footer-row{
 	position: fixed;
@@ -146,8 +147,9 @@ li:last-child {
 	}
 }
 .flight-bar-heading>h2{
-	margin-top: 2%;
+	margin-top: 10%;
 	color: white;
+	font-size: 24px;
 }
 .flight-bar-data>i{
 	padding-top: 1%;
@@ -173,4 +175,5 @@ li:last-child {
 #close-flight{
 	color: ghostwhite;
 	opacity: 1;
+	padding-left: 10%;
 }
