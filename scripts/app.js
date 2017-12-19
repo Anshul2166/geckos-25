@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('#show-carousel').click(function(){
-		$('.center-data').toggleClass("inactive");
+		$('.center-data').toggleClass("inactive"); //inactive class makes the display:none
 	});
 	$('#close-carousel').click(function(){
 		$('.center-data').toggleClass('inactive');
