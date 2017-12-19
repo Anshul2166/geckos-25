@@ -116,7 +116,7 @@ li:last-child {
 	padding: 0px;
 	margin-bottom: -5000px;
 	padding-bottom: 5000px; 
-	background: antiquewhite;
+	background: aliceblue;
 }
 .footer-row{
 	position: fixed;
@@ -151,7 +151,7 @@ li:last-child {
 	color: navy;
 }
 .flight-bar-data,.flight-bar-heading{
-	border-bottom: 1px solid  rgba(0,0,0,.1);
+	border-bottom: 2px solid  rgba(0,0,0,.2);
 	margin-top:2%;
 	height: 100px;
 	padding: 7%;
@@ -159,8 +159,8 @@ li:last-child {
 .flight-bar-heading{
 	margin: 5px;
 	margin-top: 0px;
-	background-color: darksalmon;
+	background-color: grey;
 }	
-/*.flight-bar-data{
-	background-color: mediumspringgreen;
-}*/
+#center-carousel{
+	margin-top:3%;
+}
