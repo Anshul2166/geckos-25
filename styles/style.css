@@ -165,10 +165,10 @@ a:hover {
 }
 
 .form {
-	background-color: rgba(20,20,20,1);
+	/*background-color: rgba(20,20,20,1);*/
 	padding: 40px;
 	max-width: 600px;
-	margin: 40px auto;
+	/*margin: 40px auto;*/
 	border-radius: 4px;
 	-webkit-box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
 	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
@@ -228,16 +228,18 @@ input, textarea {
 	background-image: none;
 	border:0px;
 	border-bottom: 1px solid teal;
-	color: #ffffff;
+	color: currentColor;
 	border-radius: 0;
 	-webkit-transition: border-color .25s ease, -webkit-box-shadow .25s ease;
 	transition: border-color .25s ease, -webkit-box-shadow .25s ease;
 	transition: border-color .25s ease, box-shadow .25s ease;
 	transition: border-color .25s ease, box-shadow .25s ease, -webkit-box-shadow .25s ease;
+	font-size: 115%!important;
 }
 input:focus, textarea:focus {
 	outline: 0;
-	border-color: #1ab188;
+	/*border-color: #1ab188;*/
+	border-bottom: 2px solid #1ab188;
 }
 
 textarea {
@@ -269,8 +271,6 @@ textarea {
 	outline: none;
 	border-radius: 0;
 	font-size: 1.5rem;
-	font-weight: 600;
-	text-transform: uppercase;
 	letter-spacing: .1em;
 	background: #1ab188;
 	color: #ffffff;
@@ -295,8 +295,13 @@ textarea {
 	margin-left: auto;
 }
 .modal-body{
-	/*background-color: bisque;	*/
+	padding: 0px!important;
 }
 .modal-header{
 	background-color: darkseagreen;
+}
+.modal-dialog{
+	margin-left: auto;
+	margin-right: auto;
+	top: 15%;
 }
