@@ -5,11 +5,8 @@ $(document).ready(function(){
 	$('#close-carousel').click(function(){
 		$('.center-data').toggleClass('inactive');
 	});
-	$('#my-flights').click(function(){
-		$('.flight-bar').show();
-	});
-	$('#close-flight').click(function(){
-		$('.flight-bar').hide();
+	$('#my-profile').click(function(){
+		$('.container-fluid').css('filter','blur(5px)');
 	});
 });
 $(window).on("load", function(){
