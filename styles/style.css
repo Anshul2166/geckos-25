@@ -98,8 +98,9 @@ li:last-child {
 .inactive {
 	display: none !important;
 }
-.img {
-	height: 10%;
+.carousel-item > img {
+	width: 100% !important;
+	height: 470px !important;
 }
 .carousel-item {
 	position: relative;
