@@ -18,12 +18,7 @@ $(window).on("load", function() {
     $("#center-block").show("slide", {
         direction: "down"
     }, 500);
-
-
 });
-
-
-
 $('.tab a').on('click', function(e) {
 
     e.preventDefault();
