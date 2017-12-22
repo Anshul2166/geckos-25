@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
 	<!-- link to css files goes here -->
 	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/login-css.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<script src="https://use.fontawesome.com/aef7619923.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -16,6 +17,78 @@
 	<!-- code goes here -->
 
 	<div class="container-fluid">
+		<!-- Trigger the modal with a button -->
+		<!-- <button type="button" class="btn btn-info btn-lg" >Open Modal</button> -->
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<!-- <div class="modal-header">
+						<h2 class="modal-title">My Profile</h2>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>						
+					</div> -->
+					<div class="modal-body">
+						<div class="form">
+							<ul class="tab-group">
+								<!-- <li class="tab active"><a href="#signup">Sign Up</a></li>
+									<li class="tab"><a href="#login">Log In</a></li> -->
+									<li class="tab active"><a href="#signup">Sign Up</a></li>
+									<li class="tab"><a href="#login">Log In</a></li>
+								</ul>
+								<div class="tab-content">
+									<div id="signup">   
+										<form>
+											<div class="top-row">
+												<div class="field-wrap">
+													<input type="text" required autocomplete="off" placeholder="First Name*" />
+												</div>
+
+												<div class="field-wrap">
+													<input type="text"required autocomplete="off" placeholder="Last Name*"/>
+												</div>
+											</div>
+
+											<div class="field-wrap">
+												<input type="email"required autocomplete="off" placeholder="Enter your E-mail*"/>
+											</div>
+
+											<div class="field-wrap">
+												<input type="password"required autocomplete="off" placeholder="Set a Password*"/>
+											</div>
+
+											<button type="submit" class="button button-block"/>Get Started</button>
+
+										</form>
+
+									</div>
+
+									<div id="login">   
+										<!-- <h1>Log in to WanderList</h1> -->
+
+										<form>
+
+											<div class="field-wrap">
+												<input type="email"required autocomplete="off" placeholder="E-mail*"/>
+											</div>
+
+											<div class="field-wrap">
+												<input type="password"required autocomplete="off" placeholder="Password*"/>
+											</div>
+											<p class="forgot"><a href="#">Forgot Password?</a></p>
+
+											<button class="button button-block"/>Log In</button>
+
+										</form>
+
+									</div>
+
+								</div><!-- tab-content -->
+
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
 		
 		<div class="row">
 			<div class="main-content col">
@@ -23,7 +96,7 @@
 					<div class="col-md-6">
 						<ul class="nav">
 							<li class="nav-item">
-								<a class="nav-link" href="#" id="my-flights">My Flights</a>
+								<a class="nav-link" href="#" id="my-profile" data-toggle="modal" data-target="#myModal">My Profile</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#" id="show-carousel">Interesting Places</a>
@@ -53,10 +126,10 @@
 										<img class="d-block img-fluid carousel-image" src="img/Demo.jpg" alt="First slide">
 									</div>
 									<div class="carousel-item offset-md-4 col-md-5">
-										<img class="d-block img-fluid carousel-image" src="img/Demo.jpg" alt="Second slide">
+										<img class="d-block img-fluid carousel-image" src="img/Demo2.jpg" alt="Second slide">
 									</div>
 									<div class="carousel-item offset-md-4 col-md-5">
-										<img class="d-block img-fluid carousel-image" src="img/Demo.jpg" alt="Third slide">
+										<img class="d-block img-fluid carousel-image" src="img/Demo3.jpg" alt="Third slide">
 									</div>
 									<button class="close" id="close-carousel">X</button>
 								</div>
@@ -104,34 +177,6 @@
 					</div>
 				</div>
 			</div>          
-			<div class="flight-bar col-md-3 col-lg-2">
-				<div class="flight-bar-heading row">
-					<h2 class="col-md-8 col-lg-9">My Flights</h2>
-					<button class="close offset-md-2 offset-lg-1 col-md-1" id="close-flight">X</button>
-				</div>
-
-				<div class="flight-bar-data row">
-					<i class="fa fa-plane fa-2x offset-md-2"></i>
-					<p class="col-md">Mumbai to Hyderabad</p>
-				</div>
-				<!-- <hr> -->
-				<div class="flight-bar-data row">
-					<i class="fa fa-plane fa-2x offset-md-2"></i>
-					<p class="col-md">Mumbai to Hyderabad</p>
-				</div>
-				<!-- <hr> -->
-				<div class="flight-bar-data row">
-					<i class="fa fa-plane fa-2x offset-md-2"></i>
-					<p class="col-md">Mumbai to Hyderabad</p>
-				</div>
-				<!-- <hr> -->
-				<div class="flight-bar-data row">
-					<i class="fa fa-plane fa-2x offset-md-2"></i>
-					<p class="col-md">Mumbai to Hyderabad</p>
-				</div>
-				<!-- <hr> -->
-
-			</div>
 		</div>
 	</div>
 	<!-- code ends here -->
