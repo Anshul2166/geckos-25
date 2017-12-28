@@ -112,6 +112,7 @@ li:last-child {
 .carousel-image {
 	margin-left: -5%;
 }
+
 .close {
 	float: none !important;
 }
@@ -284,6 +285,7 @@ textarea {
 	margin-top: -20px;
 	text-align: right;
 }
+
 #myProfileModal .modal-header > .close {
 	margin-left: auto;
 }
@@ -300,4 +302,8 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	top: 15%;
+}
+
+#mapModal .modal-title {
+	margin: 0 auto;
 }
