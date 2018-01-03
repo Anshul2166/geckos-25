@@ -9,6 +9,7 @@ $(document).ready(function() {
         // $('.container-fluid').css('filter','blur(5px)');
     });
 });
+
 $(window).on("load", function() {
     //Add background image once page loads
     $("body").css("background-image", "url('https://i.imgur.com/dcHO7hg.jpg')");
@@ -22,6 +23,7 @@ $(window).on("load", function() {
         500
     );
 });
+
 $(".tab a").on("click", function(e) {
     e.preventDefault();
 
@@ -41,3 +43,33 @@ $(".tab a").on("click", function(e) {
 
     $(target).fadeIn(600);
 });
+
+//Show Google Map on Modal
+
+var center = new google.maps.LatLng(59.76522, 18.35002);
+
+function initialize() {
+
+	var mapOptions = {
+		zoom: 7,
+		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		center: center
+	};
+
+	map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
+	var marker = new google.maps.Marker ({
+		map: map,
+		position: center
+	});
+
+} // end initialize
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+//Launch Google Map on link click
+
+	$("#map-canvas").on("shown.bs.modal", function () {
+		google.maps.event.trigger(map, "resize");
+		map.setCenter(center);
+	});

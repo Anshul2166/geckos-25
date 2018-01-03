@@ -307,3 +307,7 @@ textarea {
 #mapModal .modal-title {
 	margin: 0 auto;
 }
+
+#map-canvas {
+    height: 400px;
+}
