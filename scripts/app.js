@@ -44,14 +44,15 @@ $(".tab a").on("click", function(e) {
     $(target).fadeIn(600);
 });
 
-//Show Google Map on Modal
-
+var map;
 var center = new google.maps.LatLng(59.76522, 18.35002);
+
+//Create Google map
 
 function initialize() {
 
 	var mapOptions = {
-		zoom: 7,
+		zoom: 14,
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		center: center
 	};
@@ -63,13 +64,17 @@ function initialize() {
 		position: center
 	});
 
-} // end initialize
+}
 
-google.maps.event.addDomListener(window, 'load', initialize);
+google.maps.event.addDomListener(window, "load", initialize);
 
-//Launch Google Map on link click
 
-	$("#map-canvas").on("shown.bs.modal", function () {
-		google.maps.event.trigger(map, "resize");
-		map.setCenter(center);
-	});
+//Show Google map when modal loads
+
+$("#show-map").click(function() {
+   setTimeout(function() {
+        google.maps.event.trigger(map, "resize");
+        map.setCenter(center);
+    }, 300);
+});
+	
