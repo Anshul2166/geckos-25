@@ -112,6 +112,7 @@ li:last-child {
 .carousel-image {
 	margin-left: -5%;
 }
+
 .close {
 	float: none !important;
 }
@@ -284,17 +285,29 @@ textarea {
 	margin-top: -20px;
 	text-align: right;
 }
-.modal-header > .close {
+
+#myProfileModal .modal-header > .close {
 	margin-left: auto;
 }
-.modal-body {
+
+#myProfileModal .modal-body {
 	padding: 0px !important;
 }
-.modal-header {
+
+#myProfileModal .modal-header {
 	background-color: darkseagreen;
 }
-.modal-dialog {
+
+#myProfileModal .modal-dialog {
 	margin-left: auto;
 	margin-right: auto;
 	top: 15%;
+}
+
+#mapModal .modal-title {
+	margin: 0 auto;
+}
+
+#map-canvas {
+    height: 400px;
 }
